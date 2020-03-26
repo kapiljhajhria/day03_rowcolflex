@@ -4,6 +4,7 @@
     justify-content: center;
 }
 .article-container{
+    flex:1;
     /*width: 600px;*/
     margin-bottom: 12px;
     /*padding: 8px;*/
@@ -38,16 +39,19 @@ img{
 .article-text{
     text-wrap: normal;
     font-family: sans-serif;
+    flex:4;
 }
 .article-heading{
     font-weight: bold;
     font-size: 22px;
+    flex: 1;
 }
 .article-footer{
     display: flex;
     justify-content: space-between;
     font-size: 14px;
     color: rgba(0,0,0,0.8);
+    flex: 1;
 
 }
 .article-container-body{
@@ -56,5 +60,6 @@ img{
     flex:1;
     flex-direction: column;
     width: auto;
+    justify-content: space-between;
     /*display: block;*/
 }
